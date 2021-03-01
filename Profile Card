@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="profile card.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="favicon-32x32"
+      href="../Slack/images/favicon-32x32.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.google.com/specimen/Kumbh+Sans"
+    />
+    <title>Profile Card</title>
+  </head>
+  <body>
+    <div class="circles">
+      <img class="c1" src="../Slack/images/bg-pattern-top.svg" alt="" />
+      <img class="c2" src="../Slack/images/bg-pattern-bottom.svg" alt="" />
+    </div>
+    <div class="profile-card">
+      <div class="card-header">
+        <div class="top">
+          <img src="../Slack/images/bg-pattern-card.svg" alt="" />
+        </div>
+        <div class="pic">
+          <img src="../Slack/images/image-victor.jpg" alt="" />
+        </div>
+        <div class="name">Victor Crest <span class="items"> 26</span></div>
+        <div class="items">London</div>
+      </div>
+
+      <div class="card-footer">
+        <div class="numbers">
+          <div class="item">
+            <span class="desc">80k</span>
+            Followers
+          </div>
+          <div class="item">
+            <span class="desc">803k</span>
+            Likes
+          </div>
+          <div class="item">
+            <span class="desc">1.4k</span>
+            Photos
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
